@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/421d068b1f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/tab logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servies</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ghulam Mujtaba</span><br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/office-blue-background.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Ghulam Mujtaba Here!
+                        <br>
+                        I am a graphic designer with a passion for creating visually stunning and impactful designs. My
+                        work involves transforming ideas into creative visual content that communicates messages clearly
+                        and resonates with the target audience. With a strong foundation in color theory, typography,
+                        and layout, I excel at crafting logos, branding materials, marketing collateral, and digital
+                        graphics that enhance brand identity and user experience. I am proficient in industry-standard
+                        design software such as Adobe Creative Suite, including Photoshop, Illustrator, and InDesign. I
+                        stay updated with the latest design trends and tools to ensure that my work is both innovative
+                        and relevant. Whether working on a digital campaign, print materials, or user interfaces, I pay
+                        close attention to detail, ensuring that every design is polished and professional.
+                        Collaboration is key to my process. I work closely with clients and team members to understand
+                        project goals, brainstorm creative solutions, and deliver high-quality designs that meet
+                        deadlines and exceed expectations. My goal is to create designs that not only look great but
+                        also achieve the desired impact.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Graphic Designing</li>
+                            <li><span>Web Development</span><br>Website Development</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..............services........... -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Servies</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2> Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto laboriosam eligendi veniam!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto laboriosam eligendi veniam!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-passport"></i>
+                    <h2> Web Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto laboriosam eligendi veniam!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ...............protfolio................ -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/1.jpeg">
+                    <div class="layer">
+                        <h3>Golgappa Brand Identity</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illum nam autem itaque libero error inventore! Deserunt ea perspiciatis similique!</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/111111.jpeg">
+                    <div class="layer">
+                        <h3>Tasty Chick Brand Identity</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illum nam autem itaque libero error inventore! Deserunt ea perspiciatis similique!</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/wallpaper (6).jpg">
+                    <div class="layer">
+                        <h3>Thumbnail Design</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illum nam autem itaque libero error inventore! Deserunt ea perspiciatis similique!</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!-- ...............contact................. -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-Left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> Contact@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 012356789</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100073428696028"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/crea8vision/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+
+                    </div>
+                    <a href="image/pdf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-Right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 My Portfolio. <i class="fa-solid fa-heart"></i> All Rights Reserved.</p>
+        </div>
+       </div>
+       <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+       </script>
+       <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwvQBt4hp9dXRrQixQKP4LrQaNjgszRoorug-bg-9PgqMfyOoOiCyvKhXBBBkb7uwQr2A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
